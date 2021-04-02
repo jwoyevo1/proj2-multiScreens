@@ -8,12 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class rootController: UIViewController {
+    
+    var firstViewController: FirstViewController?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
+    
+    @IBAction func switchViews(_ sender: UIButton){
+        
+    }
+
+
+
 
 
 }
